@@ -10,7 +10,7 @@
               <b-card-text>
                 I am Saifullah Shahen. I completed my BSc in Computer Science and Engineering. I completed many project
                 in university related c, c++, php, python, assembly, database and so more.
-                I am confident and word worker. I can learn any programming related task faster. You can be found me
+                I am confident and hard worker. I can learn any programming related task faster. You can be found me
                 polite. <br/>
                 Now i am confident about <em>full stack web development</em>. Already i completed some ecommerce website
                 with restapi, chatapp and some small projects. I have started my web development with Laravel, Django,
@@ -134,6 +134,11 @@
 
 <script>
 export default {
+  head(){
+    return {
+      title: 'Saifullah Shahen'
+    }
+  },
   data() {
     return {
       education: [
